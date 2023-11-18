@@ -1,5 +1,5 @@
 module "produto" {
-  source        = "github.com/gomex/aovivo_iac_module_loki?ref=v1.0.0"
+  source        = "github.com/gomex/aovivo_iac_module_loki?ref=v1.1.0"
   instance_type = "t3.micro"
   sg_group_rule = {
     grafana = {
